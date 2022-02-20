@@ -19,9 +19,9 @@ class Character_Methods():
 		name = self.name
 		return name
 
-    def getAlias(self):
-        alias = self.alias
-        return = alias
+        def getAlias(self):
+            alias = self.alias
+            return = alias
 
 	def getRole(self):
 		role = self.role
