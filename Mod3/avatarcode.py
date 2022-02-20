@@ -1,12 +1,25 @@
 #1: AVATAR AS A CLASS
 class Character():
 	'''class of Avatar characters'''
+			##arguments
 	def __init__(self, name, alias, role, abilities):
 	'''initialize values'''
+			##attributes
 		self.name = name
 		self.alias = alias
 		self.role = role
 		self.abilities = abilities
+
+from models import Character
+
+chr1 = Character('Aang', 'The Avatar', 'Hero', 'Master of the Elements')
+
+chr2 = Character('Zuko', 'Blue Spirit', 'Hero', 'Lightning Redirection')
+
+chr3 = Character('Azula', 'Crazy Princess', 'Villain', 'Blue Firebending')
+
+chr4 = Character('Ozai', 'Firelord', 'Villain', 'Firebending, Lightning')
+
 
 class Character_Methods():
 	'''class of avatar characters'''
@@ -16,22 +29,3 @@ class Character_Methods():
 		self.alias = alias
 		self.role = role
 		self.abilities = abilities
-
-	def getName(self):
-		name = self.name
-		return name
-
-	def getAbilities(self):
-		abilities = self.abilities
-		return abilities
-
-    def getAlias(self):
-	alias = self.alias
-	return alias
-
-	def getRole(self):
-		role = self.role
-		return role
-
-	def useAbility(self):
-		print(self.alias + 'used their ability ' + self.abilities)
