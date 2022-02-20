@@ -20,8 +20,8 @@ class Character_Methods():
 		return name
 
     def getAlias(self):
-	    alias = self.alias
-	    return alias
+        alias = self.alias
+        return alias
 
 	def getRole(self):
 		role = self.role
