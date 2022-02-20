@@ -21,7 +21,7 @@ class Character_Methods():
 
     def getAlias(self):
         alias = self.alias
-        return alias
+        return = alias
 
 	def getRole(self):
 		role = self.role
