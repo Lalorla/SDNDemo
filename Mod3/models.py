@@ -2,7 +2,6 @@
 class Character():
 	'''class of Avatar characters'''
 	def __init__(self, name, alias, role, abilities):
-	'''initialize values'''
 		self.name = name
 		self.alias = alias
 		self.role = role
@@ -11,7 +10,6 @@ class Character():
 class Character_Methods():
 	'''class of avatar characters'''
 	def __init__(self, name, alias, role, abilities):
-		'''initialize values'''
 		self.name = name
 		self.alias = alias
 		self.role = role
@@ -21,17 +19,17 @@ class Character_Methods():
 		name = self.name
 		return name
 
-	def getAbilities(self):
-		abilities = self.abilities
-		return abilities
-
     def getAlias(self):
-	alias = self.alias
-	return alias
+	    alias = self.alias
+	    return alias
 
 	def getRole(self):
 		role = self.role
 		return role
+
+	def getAbilities(self):
+		abilities = self.abilities
+		return abilities
 
 	def useAbility(self):
 		print(self.alias + 'used their ability ' + self.abilities)

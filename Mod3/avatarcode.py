@@ -3,7 +3,6 @@ class Character():
 	'''class of Avatar characters'''
 			##arguments
 	def __init__(self, name, alias, role, abilities):
-	'''initialize values'''
 			##attributes
 		self.name = name
 		self.alias = alias
@@ -24,7 +23,6 @@ chr4 = Character('Ozai', 'Firelord', 'Villain', 'Firebending, Lightning')
 class Character_Methods():
 	'''class of avatar characters'''
 	def __init__(self, name, alias, role, abilities):
-		'''initialize values'''
 		self.name = name
 		self.alias = alias
 		self.role = role
