@@ -63,8 +63,8 @@ class Pokemon_Inherit():
         return pokedex
 
     def getAbility(self):
-		ability = self.abilities
-		return abilities
+        ability = self.abilities
+        return abilities
 
 class Male(Pokemon_Inherit):
     '''class of male pokemon'''
