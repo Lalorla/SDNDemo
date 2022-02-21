@@ -61,11 +61,11 @@ class Character_Inherit():
 		ability = self.abilities
 		return abilities
 
-    def chrFight(self):
-        print(self.name + ' is fighitng!!')
+        def chrFight(self):
+            print(self.name + ' is fighitng!!')
 
-    def useAbility(self):
-        print(self.name + ' is using their ability ' + self.abilities)
+        def useAbility(self):
+            print(self.name + ' is using their ability ' + self.abilities)
 
 class Hero(Character_Inherit):
     '''Class of Avatar heros'''
