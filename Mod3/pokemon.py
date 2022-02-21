@@ -29,11 +29,8 @@ class Pokemon_Methods():
         return pokedex
 
     def getAbility(self):
-		ability = self.abilities
-		return abilities
-
-    def useAbility(self):
-        print(self.name + ' used ' + self.abilities + '!')
+        ability = self.abilities
+        return abilities
 
     def pkeFight(self):
         print(self.name + ' made a critical hit!')
