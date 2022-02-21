@@ -63,13 +63,13 @@ class Character_Inherit():
 
 class Hero(Character_Inherit):
     '''Class of Avatar heros'''
-    def __init__(self, name, alias, role, abilities):
-        super() __init__(name, alias, role, abilities):
+    def stopEvil(self):
+        print(self.name + ' saved a village from the Fire Nation!')
 
 class Villain(Character_Inherit):
     '''class of Avatar villains'''
-    def __init__(self, name, alias, role, abilities):
-        super() __init__(name, alias, role, abilities):
+    def doEvil(self):
+        print(self.name + ' attacked an innocent child!')
 
 from models import Hero, Villain
 
