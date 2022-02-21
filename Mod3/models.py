@@ -33,7 +33,7 @@ class Character_Methods():
 		return abilities
 
     def chrFight(self):
-        print(self.alias + ' is fighting!!')
+        print(self.alais + ' is fighting!!')
 
 	def useAbility(self):
 		print(self.alias + 'used their ability ' + self.abilities)
