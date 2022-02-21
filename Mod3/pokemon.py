@@ -1,7 +1,7 @@
 #pokemon as a class
 class Pokemon():
 	'''class of pokemon characters'''
-	def__init__(self, name, type, pokedex, abilities):
+	def __init__(self, name, type, pokedex, abilities):
 		self.name = name
 		self.type = type
 		self.pokedex = pokedex
