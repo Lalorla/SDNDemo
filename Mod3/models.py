@@ -61,11 +61,21 @@ class Character_Inherit():
 		ability = self.abilities
 		return abilities
 
+    def chrFight(self):
+        print(self.name + ' is fighitng!!')
+
+    def useAbility(self):
+        print(self.name + ' is using their ability ' + self.abilities)
+
 class Hero(Character_Inherit):
     '''Class of Avatar heros'''
+    def __init__(self, name, alias, role, abilities):
+        super() __init__(name, alias, role, abilities)
 
 class Villain(Character_Inherit):
     '''class of Avatar villains'''
+    def __init__(self, name, alias, role, abilities):
+        super() __init__(name, alias, role, abilities)
 
 from models import Hero, Villain
 
