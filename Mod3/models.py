@@ -64,12 +64,12 @@ class Character_Inherit():
 class Hero(Character_Inherit):
     '''Class of Avatar heros'''
     def __init__(self, name, alias, role, abilities):
-        super() __init__(name, alias, role, abilities)
+        super() __init__(name, alias, role, abilities):
 
 class Villain(Character_Inherit):
     '''class of Avatar villains'''
     def __init__(self, name, alias, role, abilities):
-        super() __init__(name, alias, role, abilities)
+        super() __init__(name, alias, role, abilities):
 
 from models import Hero, Villain
 
